@@ -1,0 +1,12 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+nav a, span {
+    color: #fff !important;
+}
+
+a img {
+    width: 2vw;
+}
