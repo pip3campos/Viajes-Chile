@@ -10,3 +10,46 @@ nav a, span {
 a img {
     width: 2vw;
 }
+
+main {
+    margin-bottom: 2rem;
+}
+
+main h2 {
+    margin: 3rem;
+}
+
+.card {
+    margin-bottom: 2rem;
+}
+
+.card img {
+    height: 15vh;
+}
+
+.card-body {
+    background-color: #0BCAF6;
+    color: #fff;
+}
+
+.iconos {
+    background-color: #0BCAF6;
+}
+
+textarea {
+    height: 20vh;
+}
+
+.btn {
+    background-color: #0BCAF6;
+    color: #fff;
+}
+
+footer {
+    background-color: #0BCAF6;
+    padding: 1rem;
+}
+
+footer i {
+    margin-left: 0.5rem;
+}

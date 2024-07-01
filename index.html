@@ -51,7 +51,7 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="text-center">
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -73,12 +73,13 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+        <div class="d-none d-lg-block">
         <h2>¿QUIÉNES SOMOS?</h2>
         <div class="container text-center">
             <div class="row">
-                <div class="col">
-                    <div><i class="fa-solid fa-plane"></i></div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus architecto, labore amet
+                <div class="col columnas">
+                    <div class="iconos"><i class="fa-solid fa-plane"></i></div>
+                    <p class="text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus architecto, labore amet
                         fugiat omnis dolorum suscipit modi nemo, maiores dignissimos ducimus fugit! Facere minima,
                         nobis, similique commodi consectetur minus corrupti quidem rerum at eaque eum aperiam labore
                         fugit id nemo quasi laborum illum rem fugiat vitae dolorum nam. Natus omnis at esse quod
@@ -87,9 +88,8 @@
                         fugit. Ut porro veritatis sed. Aliquid maxime harum, qui laudantium dicta consectetur ea, enim
                         aut unde quaerat quasi repellat explicabo sed sapiente ab error.</p>
                 </div>
-                <div class="col">
-                    <div><i class="fa-solid fa-mountain"></i></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, nemo fuga. Voluptatum dolore
+                <div class="col columnas">
+                    <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, nemo fuga. Voluptatum dolore
                         reiciendis labore praesentium architecto a nostrum sint neque, ullam accusantium, quisquam, odit
                         consequuntur atque magni rerum numquam consectetur deserunt qui natus in iste? Distinctio
                         aliquam earum error labore id molestiae temporibus beatae ratione assumenda esse quasi totam qui
@@ -97,10 +97,11 @@
                         voluptatem suscipit labore, et earum! Nobis cum tempora nam non ex fuga labore a qui sunt, vel
                         delectus quo obcaecati eaque ratione quod cupiditate vitae, eos sit pariatur! Porro iure nobis
                         rem ipsam minima veniam magni eligendi consequuntur.</p>
+                    <div class="iconos"><i class="fa-solid fa-mountain"></i></div>
                 </div>
-                <div class="col">
-                    <div><i class="fa-solid fa-route"></i></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum beatae voluptatem aperiam
+                <div class="col columnas">
+                    <div class="iconos"><i class="fa-solid fa-route"></i></div>
+                    <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum beatae voluptatem aperiam
                         recusandae voluptate veritatis error nemo corrupti laboriosam in, doloremque eveniet facere
                         optio corporis minus adipisci magnam eum rerum. Rem veniam incidunt adipisci, voluptas autem ea
                         sint fugit libero atque molestias doloribus illo perspiciatis ad sequi culpa tenetur soluta! Rem
@@ -111,67 +112,79 @@
                 </div>
             </div>
         </div>
+        </div>
         <h2>DESTACADOS</h2>
         <div class="container text-center">
             <div class="row">
                 <div class="col">
                     <div class="card" style="width: 18rem;">
                         <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero iste quos quisquam numquam! Illo, laboriosam!</p>
                         </div>
-                    </div>
+                      </div>
                 </div>
                 <div class="col">
                     <div class="card" style="width: 18rem;">
                         <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                          <h5 class="card-title">Consectetur adipisicing elit</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis libero illum, quos doloribus atque suscipit.</p>
                         </div>
-                    </div>
+                      </div>
                 </div>
                 <div class="col">
                     <div class="card" style="width: 18rem;">
                         <img src="./assets/img/card3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                          <h5 class="card-title">Sed do eiusmod tempor incididunt ut labore</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iusto sint labore expedita sed doloremque.</p>
                         </div>
-                    </div>
+                      </div>
                 </div>
                 <div class="col">
                     <div class="card" style="width: 18rem;">
                         <img src="./assets/img/card4.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                          <h5 class="card-title">Ut enim minim veniam</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ex mollitia quisquam reprehenderit voluptatibus adipisci?</p>
                         </div>
-                    </div>
+                      </div>
                 </div>
             </div>
         </div>
         <h2>CONTACTO</h2>
-        <form>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+        <div class="container text-start">
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="asunto" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="asunto">
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Asunto</label>
+                    <textarea class="d-block w-100" name="mensaje" id="mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
     </main>
-    <footer><i class="fa-brands fa-github"></i><i class="fa-brands fa-linkedin"></i><i
-            class="fa-brands fa-twitter"></i><i class="fa-brands fa-square-facebook"></i></footer>
+    <footer>
+        <div class="container text-center">
+            <div class="row justify-content-md-center">
+              <div class="col col-4">
+                Viajes Chile
+              </div>
+              <div class="col-auto"></div>
+              <div class="col col4">
+                <i class="fa-brands fa-github"></i><i class="fa-brands fa-linkedin"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-square-facebook"></i>
+              </div>
+            </div>          
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
